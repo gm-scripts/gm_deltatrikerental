@@ -1,0 +1,84 @@
+{
+  "framework": "esx",
+  "lang": "en",
+  "keys": {
+    "openMenu": 38
+  },
+  "rentForFree": false,
+  "payForTime": true,
+  "payInterval": 5,
+  "blockIfCantPay": false,
+  "payForDamage": true,
+  "damageCost": 1,
+  "payIfDestroyed": true,
+  "destroyedPayMultiplier": 10,
+  "menu": {
+    "scale": 1,
+    "bgPrimary": "#4a4a55",
+    "bgSecondary": "#35353f",
+    "xActive": "#ff666f",
+    "xInactive": "#4a4a55"
+  },
+  "vehicles": [
+    {
+      "model": "microlight",
+      "label": "Ultralight",
+      "price": 45,
+      "info": [
+        "What red-blooded American hasn't gazed at an eagle as it soars through an empty sky, utterly serene, perfectly at one with its environment, refined by millions of years of evolution into the epitome of aerial dexterity and lethal precision, and wondered: what could be more majestic, more dignified, more trascendent? Well, now you know."
+      ]
+    }
+  ],
+  "zones": [
+    {
+      "name": "airport",
+      "marker": {
+        "x": -963.12,
+        "y": -2922.98,
+        "z": 12.95
+      },
+      "spawn": {
+        "x": -958.92,
+        "y": -2932.06,
+        "z": 12.95,
+        "h": 140.44
+      },
+      "showBlip": true
+    }
+  ],
+  "marker": {
+    "type": 1,
+    "direction": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 2.0,
+      "y": 2.0,
+      "z": 1.0
+    },
+    "color": {
+      "r": 35,
+      "g": 191,
+      "b": 124
+    },
+    "alpha": 100,
+    "bob": false,
+    "face": false,
+    "distance": {
+      "show": 100.0,
+      "open": 2.0
+    }
+  },
+  "blips": {
+    "color": 17,
+    "id": 577,
+    "size": 1.0
+  }
+}
